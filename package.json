@@ -1,0 +1,8 @@
+{
+  "name": "NLW2-Rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiogodePaula/NLW2-Rocketseat.git",
+  "author": "DiogodePaula <depaulatrabalhos@gmail.com>",
+  "license": "MIT"
+}
