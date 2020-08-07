@@ -7,8 +7,8 @@
   --color-primary: #8257E5;
   --color-primary-dark: #774DD6;
   --color-primary-darker: #6842c2;
-  --color-secundary: #04D361;
-  --color-secundary-dark: #04BF58;
+  --color-secondary: #04D361;
+  --color-secondary-dark: #04BF58;
   --color-title-in-primary: #FFFFFF;
   --color-text-in-primary: #D4C2FF;
   --color-text-title: #32264D;
@@ -32,5 +32,35 @@
   /*padding: 10px 40px 60px 2px; ele é do sentido horário em cima, direita, baixo, esquerda*/
   -webkit-box-sizing: 0;
           box-sizing: 0;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+}
+
+#container {
+  width: 90vw;
+  max-width: 700px;
 }
 /*# sourceMappingURL=style.css.map */
