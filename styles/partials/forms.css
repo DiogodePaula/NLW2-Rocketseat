@@ -1,13 +1,15 @@
 
 .select-block label,
-input-block label{
+.input-block label,
+.textarea-block label{
     font-size: 1.4rem;
     color: var(--color-text-complement);
 }
 
 .input-block input,
-.select-block select{
-    width: 100%;
+.select-block select,
+.textarea-block textarea{
+    width: 95%;
     height: 5.6rem;
     margin-top: 0.8rem;
     border-radius: 0.8rem;
@@ -18,12 +20,20 @@ input-block label{
     font: 1.6rem Archivo;
 }
 
+.textarea-block textarea{
+    padding: 1.2rem 1.6rem;
+    height: 16rem;
 
-.input-block{
+    resize: vertical; /*a caixa de biografia só pode mover na vertical*/
+}
+
+.input-block,
+.textarea-block{
     position: relative;
 }
 
-.input-block:focus-within::after{
+.input-block:focus-within::after,
+.textarea-block:focus-within::after{
     content:""; /*precisa ter o content mas ele pode ser vazio*/
     width: calc(100% - 3.2rem);
     height: 4px;
