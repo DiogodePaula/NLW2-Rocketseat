@@ -17,7 +17,7 @@ const proffys = [
         bio: "Marie Curie (1867-1934) foi uma cientista polonesa radicada na França que desenvolveu pesquisas pioneiras sobre a radioatividade. Ela foi a primeira mulher a receber um Prêmio Nobel e a única pessoa a ganhar o prêmio duas vezes em diferentes categorias: física e química. Além de desenvolver a teoria da radioatividade, Curie descobriu dois novos elementos químicos, o polônio e o rádio. Marie Curie foi a primeira mulher a ser admitida como professora na Universidade de Paris.",
         subject: "Ciências ",
         cost: 800,
-        weekday: [2],
+        weekday: [1],
         time_from: [720],
         time_to: [1220]
     },
@@ -28,7 +28,7 @@ const proffys = [
         bio: "Johann Heinrich Pestalozzi (1746-1827) foi um pedagogo suíço, criador do “Método Pestalozzi”. Em sua época, revolucionou a educação ao defender uma pedagogia humana e afetiva, tendo a escola como uma extensão do lar das crianças, onde elas se sentissem seguras e protegidas. Para Pestalozzi, o objetivo final do aprendizado seria a tripla formação do ser: intelectual, física e moral. Fundador de várias escolas, ele era contra a aplicação de provas, castigos e recompensas.",
         subject: "Pedagogia",
         cost: 600,
-        weekday: [3],
+        weekday: [2],
         time_from: [720],
         time_to: [1220]
     }
