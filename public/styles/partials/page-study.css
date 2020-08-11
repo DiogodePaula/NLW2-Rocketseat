@@ -187,6 +187,12 @@
     background: var(--color-secondary-dark);
 }
 
+#pages-study main .no-results{
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
+}
+
 @media (min-width:700px){
     #page-study #container{
         max-width: 100vw;
