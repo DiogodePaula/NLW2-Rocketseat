@@ -1,17 +1,26 @@
-# NLW2-Rocketseat
-Repositório responsável pela semana NLW #2 da Rocketseat
+# PROFFY
 
-Layout inicial que liga alunos a professores e professores que queiram dar aulas.
-
-
-<a href="https://imgur.com/pc95AfK"><img src="https://i.imgur.com/pc95AfK.png" title="source: imgur.com" /></a>
-
+<img src="https://i.imgur.com/pc95AfK.png" title="source: imgur.com" />
 
 Estudante escolha seu professor 
 
-<a href="https://imgur.com/Q8XIkjZ"><img src="https://i.imgur.com/Q8XIkjZ.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/Q8XIkjZ.png" title="source: imgur.com" />
 
+Professor diga os dias e a hora e a matéria que vai lecionar
 
-Professor diga os dias a hora e a matéria que vai lecionar
+<img src="https://i.imgur.com/i3OIxeF.png" title="source: imgur.com" />
 
-<a href="https://imgur.com/i3OIxeF"><img src="https://i.imgur.com/i3OIxeF.png" title="source: imgur.com" /></a>
+# Tecnologias 🤖
+* HTML
+* CSS
+* JAVASCRIPT
+* NODE.JS
+* EXPRESS
+* SQLITE
+* NUNJUCKS
+
+# Projeto 💻
+O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
+
+# Referências 🙏
+Projeto desenvolvido durante o NLW2 da Rocketseat, trilha Discovery.
